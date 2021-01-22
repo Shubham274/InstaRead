@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px #ccc;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75rem;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+}
+
+.links .link {
+  text-transform: capitalize;
+  margin-left: 2rem;
+  color: #959ba8;
+}
+
+.links .link.active {
+  color: #0f8ce7;
+}
+
+.background-image-section {
+  background-color: #fff;
+}
+
+.section-wrapper {
+  display: flex;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+}
+.left-part {
+  flex: 0 0 52.925926%;
+  padding-bottom: 2rem;
+}
+.left-part-image {
+  width: 110%;
+  position: relative;
+  left: 90px;
+}
+.left-part-image image {
+  width: 90%;
+}
+
+.right-part {
+  position: relative;
+  width: 50%;
+}
+
+.right-part h1 {
+  font-size: 2.588rem;
+  font-weight: bold;
+  color: #2d3138;
+  padding-top: 4rem;
+}
+
+.right-part p {
+  font-size: 1.176rem;
+  line-height: 1.55;
+  max-width: 26rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.right-part button {
+  border-radius: 0.176rem;
+  box-shadow: 0 0.235rem 0.471rem 0 rgba(0, 0, 0, 0.17),
+    0 0.059rem 0.118rem 0 rgba(0, 0, 0, 0.07);
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #009aeb, #0085e6);
+  border: solid 1px #0085e6;
+  padding: 0.8125rem 2.375rem;
+  background-color: #f8f8f8;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.laptop-background {
+  position: absolute;
+  height: calc(11% / 1 * 1.1);
+  top: 22.4%;
+  left: 41.31%;
+  width: 11%;
+  transform: rotate(-22deg);
+}
+
+.laptop-background img {
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.6),
+    0px 2px 8px 1px rgba(0, 0, 0, 0.25), 0 5px 15px -2px rgba(0, 0, 0, 0.3),
+    inset 0 -1px 3px 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12),
+    inset 0 2px 0 0 rgba(255, 255, 255, 0.2);
+}
+
+.mobile-background {
+  position: absolute;
+  z-index: 1;
+  width: 8.5%;
+  height: calc(9.5% / 1 * 1.6);
+  top: 77.99%;
+  left: 78.71%;
+  transform: rotate(11deg);
+}
+
+.mobile-background img {
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.6),
+    0px 2px 8px 1px rgba(0, 0, 0, 0.25), 0 5px 15px -2px rgba(0, 0, 0, 0.3),
+    inset 0 -1px 3px 0 rgba(0, 0, 0, 0.2), inset 0 -1px 0 0 rgba(0, 0, 0, 0.12),
+    inset 0 2px 0 0 rgba(255, 255, 255, 0.2);
+}
+
+.miscellaneous-images {
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  max-width: 130%;
+  padding-bottom: calc(30% * 1.65062);
+}
+
+.hero_plant_background {
+  position: absolute;
+  background-image: url(https://instaread.co/images/hero-plant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 14rem;
+  width: 14%;
+  top: -4rem;
+  right: 0;
+}
+
+.hero_coffee_background {
+  position: absolute;
+  background-image: url(https://instaread.co/images/hero-coffee.jpg);
+  padding-bottom: 12%;
+  width: 10%;
+  bottom: 0rem;
+  right: 18%;
+}
+
+.feature-section {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.feature h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.feature img {
+  width: 40%;
+}
+
+.vl {
+  border-left: 3px solid #ccc;
+  height: 300px;
+}
