@@ -66,13 +66,6 @@
   width: 50%;
 }
 
-.right-part h1 {
-  font-size: 2.588rem;
-  font-weight: bold;
-  color: #2d3138;
-  padding-top: 4rem;
-}
-
 .right-part p {
   font-size: 1.176rem;
   line-height: 1.55;
@@ -184,4 +177,83 @@
 .vl {
   border-left: 3px solid #ccc;
   height: 300px;
+}
+
+.hero-heading {
+  font-size: 2.588rem;
+  font-weight: bold;
+  line-height: 1.14;
+  color: #2d3138;
+  margin-bottom: 6rem;
+  padding-top: 3rem;
+}
+
+.rw-words {
+  position: relative;
+  white-space: nowrap;
+}
+
+.rw-words span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 0.625rem;
+}
+.rw-words span {
+  animation: rotateWords 18s;
+}
+
+.rw-words span:nth-child(2) {
+  animation-delay: 3s;
+}
+
+.rw-words span:nth-child(3) {
+  animation-delay: 6s;
+}
+
+.rw-words span:nth-child(4) {
+  animation-delay: 9s;
+}
+
+.rw-words span:nth-child(5) {
+  animation-delay: 12s;
+}
+
+.rw-words span:nth-child(6) {
+  animation: rotateLastWord 18s forwards;
+  animation-delay: 15s;
+}
+
+@keyframes rotateWords {
+  0% {
+    opacity: 1;
+    width: 0px;
+  }
+  15% {
+    opacity: 1;
+    width: 100%;
+  }
+  18% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotateLastWord {
+  0% {
+    opacity: 1;
+    width: 0px;
+  }
+  15% {
+    opacity: 1;
+    width: 100%;
+  }
+  100% {
+    opacity: 1;
+  }
 }
